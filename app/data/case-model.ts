@@ -1,0 +1,2 @@
+export type Exhibit={title:string;units:string;rows:string[][]};
+export type AcademyCase={id:string;slug:string;title:string;client:string;track:string;sector:string;caseType:string;difficulty:string;minutes:number;brief:string;objective:string;facts:string[];question:string;clarifyingAnswers:{topics:string[];answer:string}[];exhibits:Exhibit[];solution:{structure:string[];math:string[];modelAnswer:string;recommendation:string;risks:string[];impactLens:string;brainstorm:string};rubricNotes:string[];furtherReading:{title:string;url:string}[]};
